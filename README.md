@@ -19,9 +19,35 @@ Também foram avaliadas variáveis fiscais e administrativas dos municípios, co
 * **Gastos municipais com educação (por matrícula), saúde, administração pública e infraestrutura social (per capita)**: informações de 2023 do [Finbra](https://siconfi.tesouro.gov.br/siconfi/pages/public/consulta_finbra/finbra_list.jsf), tratadas pela FGV Municípios. Os gastos por matrícula consideram o número de alunos da rede municipal, segundo a Sinopse do [Censo Escolar da Educação Básica de 2023](https://www.gov.br/inep/pt-br/assuntos/noticias/censo-escolar/mec-e-inep-divulgam-resultados-do-censo-escolar-2023);
 * **Número de servidores da administração municipal por 1.000 habitantes**: dados da [Pesquisa de Informações Básicas Municipais](https://www.ibge.gov.br/estatisticas/sociais/educacao/10586-pesquisa-de-informacoes-basicas-municipais.html) (IBGE/2023), trabalhados pela FGV Municípios.
 
-
 ## Ranqueamento
 Cada município foi ranqueado dentro de seu respectivo estado em cada um dos indicadores, sendo classificados em três grupos de desempenho: terço superior (melhores resultados), terço intermediário e terço inferior (piores resultados). [Veja o resultado]().
+
+| Código | Nome do Indicador | Tipo de Dado | Unidade | Descrição |
+| ------------------------------------------- | --------------------------------------------------- | -------------- | ------------------- | ----------------------------------------------------------------------------- |
+| cód | Código do município | Texto/Numérico | - | Código IBGE ou identificador único do município |
+| total royalties (1999-2024) | Total de royalties recebidos (1999 a 2024) | Numérico | R\$ | Valor acumulado de royalties recebidos pelo município no período |
+| população (est 2024) | População estimada para 2024 | Numérico | Habitantes | Estimativa populacional IBGE ou fonte oficial |
+| população censo 2022 | População do Censo 2022 | Numérico | Habitantes | População residente registrada no Censo Demográfico de 2022 |
+| \$ per capita | Receita per capita de royalties | Numérico | R\$ | Valor de royalties dividido pela população estimada |
+| categoria | Categoria do município | Texto | - | Classificação usada na análise (ex: Alto, Médio, Baixo, etc.) |
+| top15 | Pertence ao Top 15 em royalties | Booleano | Sim/Não | Indica se o município está entre os 15 com maior valor de royalties |
+| ób\_ev\_total\_100mil\_hab\_2023 | Óbitos evitáveis por 100 mil hab (2023) | Numérico | óbitos/100 mil hab  | Taxa de mortalidade por causas evitáveis|
+| pop sem água (2021) | População sem acesso à água (2021) | Numérico | Habitantes | Número absoluto de pessoas sem acesso a água potável segundo dados de 2021 |
+| pop sem esgoto (2021) | População sem acesso a esgotamento sanitário | Numérico | Habitantes | Número de pessoas sem acesso a esgoto |
+| taxa de analfabetismo (censo 22) | Taxa de analfabetismo (2022) | Numérico (%) | % | Percentual da população com 15 anos ou mais que não sabe ler e escrever |
+| ideb iniciais municipal 2023 | IDEB anos iniciais do fundamental (2023) | Numérico | Nota (0 a 10) | Índice de Desenvolvimento da Educação Básica – anos iniciais |
+| ideb finais municipal 2023 | IDEB anos finais do fundamental (2023) | Numérico | Nota (0 a 10) | Índice de Desenvolvimento da Educação Básica – anos finais |
+| total cadunico (mar25)/pop IBGE 2024 | Cobertura do CadÚnico | Numérico (%) | % | Percentual da população estimada 2024 registrada no Cadastro Único (março/25) |
+| pobreza cadunico (mar25)/pop IBGE 2024 | População em pobreza extrema ou pobreza no CadÚnico | Numérico (%) | % | Proporção da população em situação de pobreza cadastrada |
+| médicos p/1000 hab (datasus dez/24) | Médicos por mil habitantes | Numérico | médicos/1000 hab | Densidade médica por população, dados de dezembro/2024 |
+| gastos c/ educação p/ matrícula (2023) | Gastos com educação por aluno | Numérico | R\$ | Valor médio gasto por matrícula na educação básica municipal |
+| gastos c/ saúde per capita (2023) | Gastos per capita com saúde | Numérico | R\$ | Despesa pública municipal com saúde por habitante |
+| gastos c/ adm per capita (2023) | Gastos administrativos per capita | Numérico | R\$ | Despesas administrativas divididas pela população |
+| gastos c/ infra social per capita (2023) | Gastos com infraestrutura social per capita | Numérico | R\$ | Inclui habitação, saneamento, urbanismo, etc. por habitante |
+| pessoal p/ 1000 hab (pop DOU 2023/Censo 22) | Servidores públicos por 1000 hab | Numérico | servidores/1000 hab | Relação entre número de servidores municipais e população |
+| % sem vínculo permanente (2023) | Proporção de servidores sem vínculo permanente | Numérico (%) | % | Percentual de funcionários com vínculos temporários/precarizados |
+
+
 
 ## Resumo de dados
 Com base nos rankings estaduais, foi criado um índice-resumo padronizado que orientou a construção do SuperTrunfo dos royalties — uma ferramenta visual para comparação do desempenho dos municípios em diferentes dimensões. Cada indicador foi convertido para uma escala de 0 a 10, de acordo com a posição do município no ranking estadual: quanto mais próximo da nota 10, melhor o desempenho estadualmente, enquanto a proximidade com a nota 0 corresponde aos piores resultados.
