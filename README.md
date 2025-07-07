@@ -20,7 +20,7 @@ Também foram avaliadas variáveis fiscais e administrativas dos municípios, co
 * **Número de servidores da administração municipal por 1.000 habitantes** ([tabela 12](https://github.com/apublica/royalties/blob/main/data/tabela12_rh.csv)): dados da [Pesquisa de Informações Básicas Municipais](https://www.ibge.gov.br/estatisticas/sociais/educacao/10586-pesquisa-de-informacoes-basicas-municipais.html) (IBGE/2023), trabalhados pela FGV Municípios.
 
 ## Ranqueamento
-Cada município foi ranqueado dentro de seu respectivo estado em cada um dos indicadores, sendo classificados em três grupos de desempenho: terço superior (melhores resultados), terço intermediário e terço inferior (piores resultados). [Veja o resultado]().
+Cada município foi ranqueado dentro de seu respectivo estado em cada um dos indicadores, sendo classificados em três grupos de desempenho: terço superior (melhores resultados), terço intermediário e terço inferior (piores resultados). [Veja o resultado](https://github.com/apublica/royalties/blob/main/data/tabela14_top15_ranking_royalties_posicao_uf.csv).
 
 | Código | Nome do Indicador | Tipo de Dado | Unidade | Descrição |
 | ------------------------------------------- | --------------------------------------------------- | -------------- | ------------------- | ----------------------------------------------------------------------------- |
@@ -57,5 +57,5 @@ Os indicadores foram organizados em três grandes eixos temáticos:
 * **Saúde e saneamento**: reúne os dados de mortalidade infantil, taxa de mortes evitáveis ajustada por idade e acesso adequado à água e ao esgoto.
 * **Emprego e renda**: considera o estoque de empregos formais em relação à população, a proporção de moradores cadastrados no CadÚnico e o percentual da população em situação de pobreza.
 
-Para cada grupo temático, foi calculada a média simples das notas dos indicadores que o compõem, resultando em três notas parciais. [Veja o resultado]().
+Para cada grupo temático, foi calculada a média simples das notas dos indicadores que o compõem, resultando em três notas parciais. [Veja o resultado](https://github.com/apublica/royalties/blob/main/data/tabela16_resumo.csv).
 
